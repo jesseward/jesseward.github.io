@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mixes on Jesse Ward</title>
+    <link>http://www.jesseward.com/mixes/</link>
+    <description>Recent content in Mixes on Jesse Ward</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.jesseward.com/mixes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Difference</title>
+      <link>http://www.jesseward.com/mixes/the-difference/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/the-difference/</guid>
+      <description>Spanning 3 decades, featuring tracks from labels Strictly Rhythm, La Vida, Chikyu-u, Rutilance Recordings</description>
+    </item>
+    
+    <item>
+      <title>Deep Space Network II</title>
+      <link>http://www.jesseward.com/mixes/deep-space-network-ii/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/deep-space-network-ii/</guid>
+      <description>Second mix in the Deep Space Network mix series. A mix of dub house and techno sounds.</description>
+    </item>
+    
+    <item>
+      <title>Deep Space Network I</title>
+      <link>http://www.jesseward.com/mixes/deep-space-network-i/</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/deep-space-network-i/</guid>
+      <description>The first in the series of dub and deep techno sets. Spanning across multiple decades including tracks from the labels Transmat, Plus 8 , Djax Up-Beats and others.</description>
+    </item>
+    
+    <item>
+      <title>Re:Cycle</title>
+      <link>http://www.jesseward.com/mixes/re-cycle/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/re-cycle/</guid>
+      <description>OLD is NEW. A mix of 90s style breakbeats infused with house/techno&amp;hellip;&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Recursion Depth Exceeded</title>
+      <link>http://www.jesseward.com/mixes/recursion-depth-exceeded/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/recursion-depth-exceeded/</guid>
+      <description>Mellow house music with soul.</description>
+    </item>
+    
+  </channel>
+</rss>

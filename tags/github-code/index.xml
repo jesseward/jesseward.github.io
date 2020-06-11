@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github-code on Jesse Ward</title>
+    <link>http://www.jesseward.com/tags/github-code/</link>
+    <description>Recent content in github-code on Jesse Ward</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.jesseward.com/tags/github-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jellyfin Plugin Lastfm</title>
+      <link>http://www.jesseward.com/projects/jellyfin-plugin-lastfm/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/projects/jellyfin-plugin-lastfm/</guid>
+      <description>This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
+This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
+Build .</description>
+    </item>
+    
+    <item>
+      <title>Zoofuse</title>
+      <link>http://www.jesseward.com/projects/zoofuse/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/projects/zoofuse/</guid>
+      <description>·▄▄▄▄• ·▄▄▄▄• ▄▌.▄▄ · ▄▄▄ . ▪▀·.█▌▪ ▪ ▐▄▄·█▪██▌▐█ ▀. ▀▄.▀· ▄█▀▀▀• ▄█▀▄ ▄█▀▄ ██▪ █▌▐█▌▄▀▀▀█▄▐▀▀▪▄ █▌▪▄█▀▐█▌.▐▌▐█▌.▐▌██▌.▐█▄█▌▐█▄▪▐█▐█▄▄▌ ·▀▀▀ • ▀█▄▀▪ ▀█▄▀▪▀▀▀ ▀▀▀ ▀▀▀▀ ▀▀▀ ZooFUSE implements a FUSE filesystem that is backed by a ZooKeeper directory tree. This allows the user to navigate through the Zookeeper tree structure using the same command line tools commonly used to navigate a local file system.
+Some of the current features include
+ Easily mount a remote Zookeeper instance onto a local FUSE filesystem Ability to &amp;ldquo;chroot&amp;rdquo; or jail a Zookeeper path to the Fuse root (see zkroot flag).</description>
+    </item>
+    
+    <item>
+      <title>Google Assistant Action Songexplorer</title>
+      <link>http://www.jesseward.com/projects/google-assistant-action-songexplorer/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/projects/google-assistant-action-songexplorer/</guid>
+      <description>Google Assistant Catalog Listing
+SongExplorer is a Google Home assistant for music recommendations, built with Go and Redis. Using Google Home and API.ai
+In a nutshell this service consists of the following
+ a very light Go web API (https://github.com/jesseward/songexplorer) An agent created at api.ai All api.ai intents, with the exception of the &amp;lsquo;help&amp;rsquo; intent are answered by the songdiscover webhook (this Go app). A self hosted Go app. Its sole purpose is to massage communication between api.</description>
+    </item>
+    
+  </channel>
+</rss>

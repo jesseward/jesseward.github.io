@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jesse Ward</title>
+    <link>http://www.jesseward.com/</link>
+    <description>Recent content on Jesse Ward</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.jesseward.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Difference</title>
+      <link>http://www.jesseward.com/mixes/the-difference/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/the-difference/</guid>
+      <description>Spanning 3 decades, featuring tracks from labels Strictly Rhythm, La Vida, Chikyu-u, Rutilance Recordings</description>
+    </item>
+    
+    <item>
+      <title>Deep Space Network II</title>
+      <link>http://www.jesseward.com/mixes/deep-space-network-ii/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/deep-space-network-ii/</guid>
+      <description>Second mix in the Deep Space Network mix series. A mix of dub house and techno sounds.</description>
+    </item>
+    
+    <item>
+      <title>Deep Space Network I</title>
+      <link>http://www.jesseward.com/mixes/deep-space-network-i/</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/deep-space-network-i/</guid>
+      <description>The first in the series of dub and deep techno sets. Spanning across multiple decades including tracks from the labels Transmat, Plus 8 , Djax Up-Beats and others.</description>
+    </item>
+    
+    <item>
+      <title>Re:Cycle</title>
+      <link>http://www.jesseward.com/mixes/re-cycle/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/re-cycle/</guid>
+      <description>OLD is NEW. A mix of 90s style breakbeats infused with house/techno&amp;hellip;&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Recursion Depth Exceeded</title>
+      <link>http://www.jesseward.com/mixes/recursion-depth-exceeded/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/mixes/recursion-depth-exceeded/</guid>
+      <description>Mellow house music with soul.</description>
+    </item>
+    
+    <item>
+      <title>Jellyfin Plugin Lastfm</title>
+      <link>http://www.jesseward.com/projects/jellyfin-plugin-lastfm/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/projects/jellyfin-plugin-lastfm/</guid>
+      <description>This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
+This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
+Build .</description>
+    </item>
+    
+    <item>
+      <title>Zoofuse</title>
+      <link>http://www.jesseward.com/projects/zoofuse/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/projects/zoofuse/</guid>
+      <description>·▄▄▄▄• ·▄▄▄▄• ▄▌.▄▄ · ▄▄▄ . ▪▀·.█▌▪ ▪ ▐▄▄·█▪██▌▐█ ▀. ▀▄.▀· ▄█▀▀▀• ▄█▀▄ ▄█▀▄ ██▪ █▌▐█▌▄▀▀▀█▄▐▀▀▪▄ █▌▪▄█▀▐█▌.▐▌▐█▌.▐▌██▌.▐█▄█▌▐█▄▪▐█▐█▄▄▌ ·▀▀▀ • ▀█▄▀▪ ▀█▄▀▪▀▀▀ ▀▀▀ ▀▀▀▀ ▀▀▀ ZooFUSE implements a FUSE filesystem that is backed by a ZooKeeper directory tree. This allows the user to navigate through the Zookeeper tree structure using the same command line tools commonly used to navigate a local file system.
+Some of the current features include
+ Easily mount a remote Zookeeper instance onto a local FUSE filesystem Ability to &amp;ldquo;chroot&amp;rdquo; or jail a Zookeeper path to the Fuse root (see zkroot flag).</description>
+    </item>
+    
+    <item>
+      <title>Google Assistant Action Songexplorer</title>
+      <link>http://www.jesseward.com/projects/google-assistant-action-songexplorer/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/projects/google-assistant-action-songexplorer/</guid>
+      <description>Google Assistant Catalog Listing
+SongExplorer is a Google Home assistant for music recommendations, built with Go and Redis. Using Google Home and API.ai
+In a nutshell this service consists of the following
+ a very light Go web API (https://github.com/jesseward/songexplorer) An agent created at api.ai All api.ai intents, with the exception of the &amp;lsquo;help&amp;rsquo; intent are answered by the songdiscover webhook (this Go app). A self hosted Go app. Its sole purpose is to massage communication between api.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://www.jesseward.com/about/</link>
+      <pubDate>Mon, 24 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jesseward.com/about/</guid>
+      <description>I am currently located in Ontario, Canada, working remotely as a Senior Staff Site Reliability Engineer at LinkedIn. Free time is spent with family, traveling, working on my github projects or constantly sampling new and old music.</description>
+    </item>
+    
+  </channel>
+</rss>
