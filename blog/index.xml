@@ -5,10 +5,6 @@
     <link>http://www.jesseward.com/blog/</link>
     <description>Recent content in Blog on Jesse Ward</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://www.jesseward.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://www.jesseward.com/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
