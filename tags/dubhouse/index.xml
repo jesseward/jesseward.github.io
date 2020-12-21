@@ -2,30 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dubhouse on Jesse Ward</title>
-    <link>http://www.jesseward.com/tags/dubhouse/</link>
+    <link>https://www.jesseward.com/tags/dubhouse/</link>
     <description>Recent content in dubhouse on Jesse Ward</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://www.jesseward.com/tags/dubhouse/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jesseward.com/tags/dubhouse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Space Network II</title>
-      <link>http://www.jesseward.com/mixes/deep-space-network-ii/</link>
+      <link>https://www.jesseward.com/mixes/deep-space-network-ii/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.jesseward.com/mixes/deep-space-network-ii/</guid>
+      <guid>https://www.jesseward.com/mixes/deep-space-network-ii/</guid>
       <description>Second mix in the Deep Space Network mix series. A mix of dub house and techno sounds.</description>
     </item>
     
     <item>
       <title>Deep Space Network I</title>
-      <link>http://www.jesseward.com/mixes/deep-space-network-i/</link>
+      <link>https://www.jesseward.com/mixes/deep-space-network-i/</link>
       <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.jesseward.com/mixes/deep-space-network-i/</guid>
+      <guid>https://www.jesseward.com/mixes/deep-space-network-i/</guid>
       <description>The first in the series of dub and deep techno sets. Spanning across multiple decades including tracks from the labels Transmat, Plus 8 , Djax Up-Beats and others.</description>
     </item>
     

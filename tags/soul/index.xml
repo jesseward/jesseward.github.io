@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>soul on Jesse Ward</title>
-    <link>http://www.jesseward.com/tags/soul/</link>
+    <link>https://www.jesseward.com/tags/soul/</link>
     <description>Recent content in soul on Jesse Ward</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://www.jesseward.com/tags/soul/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jesseward.com/tags/soul/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Sofa Sessions I</title>
-      <link>http://www.jesseward.com/mixes/the-sofa-sessions-volume-i/</link>
+      <link>https://www.jesseward.com/mixes/the-sofa-sessions-volume-i/</link>
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://www.jesseward.com/mixes/the-sofa-sessions-volume-i/</guid>
+      <guid>https://www.jesseward.com/mixes/the-sofa-sessions-volume-i/</guid>
       <description>The Sofa Sessions mix series focuses on the soulful side of electronic music. The series features styles ranging from Acid Jazz, Downtempo, Drum and Bass, Hip-Hop and Trip-Hop. Music with soul, music to lounge to.
 Volume I - Nod your head, tap your feet.. Easy listening for a lazy sunny Sunday afternoon. A mix of downtempo and jazzy hip-hop, inspired by the Mushroom Jazz mix series.</description>
     </item>
