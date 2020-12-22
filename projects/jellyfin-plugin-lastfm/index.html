@@ -7,7 +7,7 @@
 <meta name="author" content="">
 <meta name="description" content="This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
 This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
-Build ." />
+Repo Install Jellyfin 10." />
 <meta name="keywords" content=", github-code" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -37,10 +37,10 @@ Build ." />
 <meta itemprop="name" content="Jellyfin Plugin Lastfm">
 <meta itemprop="description" content="This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
 This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
-Build .">
+Repo Install Jellyfin 10.">
 <meta itemprop="datePublished" content="2019-02-10T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2019-02-10T00:00:00+00:00" />
-<meta itemprop="wordCount" content="183">
+<meta itemprop="wordCount" content="220">
 <meta itemprop="image" content="https://www.jesseward.com/"/>
 
 
@@ -53,14 +53,14 @@ Build .">
 <meta name="twitter:title" content="Jellyfin Plugin Lastfm"/>
 <meta name="twitter:description" content="This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
 This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
-Build ."/>
+Repo Install Jellyfin 10."/>
 
 
 
     <meta property="og:title" content="Jellyfin Plugin Lastfm" />
 <meta property="og:description" content="This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
 This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
-Build ." />
+Repo Install Jellyfin 10." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.jesseward.com/projects/jellyfin-plugin-lastfm/" />
 <meta property="og:image" content="https://www.jesseward.com/"/>
@@ -141,16 +141,22 @@ Build ." />
             <div class="post-content">
                 <p>This is a plugin for the <a href="https://jellyfin.org/">JellyFin</a> media center that enables audio scrobbling to <a href="http://www.last.fm">Last.FM</a> as well as a metadata fetcher source.</p>
 <p>This plug-in was migrated from the original <a href="https://emby.media/">Emby</a> repository and has been adapted to function within the <a href="https://jellyfin.org/">JellyFin</a> ecosystem. This plugin <em>cannot</em> be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.</p>
-<h1 id="build">Build</h1>
+<h2 id="repo-install">Repo Install</h2>
+<p>Jellyfin 10.6.0 introduces 3rd party plugin repositories (see: <a href="https://jellyfin.org/posts/plugin-updates/">announcement</a>). Use the following settings in your Jellyfin installation to install this plugin and its updates from a custom repo.</p>
+<ul>
+<li>Repo name: LastFM Stable</li>
+<li>Repo URL: <a href="https://jellyfin-repo.jesseward.com/manifest.json">https://jellyfin-repo.jesseward.com/manifest.json</a></li>
+</ul>
+<h2 id="build">Build</h2>
 <p>.NET core 2.1 is required to build the LastFM plugin. To install the .NET SDK on Linux or macOS, see the download page at <a href="https://dotnet.microsoft.com/download">https://dotnet.microsoft.com/download</a> . Native package manager instructions can be found for Debian, RHEL, Ubuntu, Fedora, SLES, and CentOS.</p>
 <p>Once the SDK is installed, run the following.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/jesseward/jellyfin-plugin-lastfm.git
 cd jellyfin-plugin-lastfm
 dotnet build
-</code></pre></div><h1 id="install">INSTALL</h1>
+</code></pre></div><h2 id="install">INSTALL</h2>
 <p>If the build is successful, the tool will report the path to your Plugin dll (<code>Jellyfin.Plugin.Lastfm/bin/Debug/netstandard2.1/Jellyfin.Plugin.Lastfm.dll</code>)</p>
 <p>The plugin should then be copied into your Jellyfin ${CONFIG_DIR}/plugins directory.</p>
-<h1 id="running-jellyfin-from-docker">Running Jellyfin from Docker</h1>
+<h2 id="running-jellyfin-from-docker">Running Jellyfin from Docker</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">CACHE_DIR<span style="color:#f92672">=</span>/path/to/cache
 MEDIA_DIR<span style="color:#f92672">=</span>/path/to/media
 CONFIG_DIR<span style="color:#f92672">=</span>/path/to/config
