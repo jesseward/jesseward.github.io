@@ -38,15 +38,14 @@ Repo Install Jellyfin 10." />
 <meta itemprop="description" content="This is a plugin for the JellyFin media center that enables audio scrobbling to Last.FM as well as a metadata fetcher source.
 This plug-in was migrated from the original Emby repository and has been adapted to function within the JellyFin ecosystem. This plugin cannot be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.
 Repo Install Jellyfin 10.">
-<meta itemprop="datePublished" content="2019-02-10T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2019-02-10T00:00:00+00:00" />
+<meta itemprop="datePublished" content="2019-02-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-02-10T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="220">
 <meta itemprop="image" content="https://www.jesseward.com/"/>
 
 
 
 <meta itemprop="keywords" content="github-code," />
-
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.jesseward.com/"/>
 
@@ -141,22 +140,22 @@ Repo Install Jellyfin 10." />
             <div class="post-content">
                 <p>This is a plugin for the <a href="https://jellyfin.org/">JellyFin</a> media center that enables audio scrobbling to <a href="http://www.last.fm">Last.FM</a> as well as a metadata fetcher source.</p>
 <p>This plug-in was migrated from the original <a href="https://emby.media/">Emby</a> repository and has been adapted to function within the <a href="https://jellyfin.org/">JellyFin</a> ecosystem. This plugin <em>cannot</em> be distributed with Jellyfin due to a missing compatible license. I will attempt to keep this repo up-to-date and in-sync as the Jellyfin project matures.</p>
-<h2 id="repo-install">Repo Install</h2>
+<h2 id="repo-install-">Repo Install</h2>
 <p>Jellyfin 10.6.0 introduces 3rd party plugin repositories (see: <a href="https://jellyfin.org/posts/plugin-updates/">announcement</a>). Use the following settings in your Jellyfin installation to install this plugin and its updates from a custom repo.</p>
 <ul>
 <li>Repo name: LastFM Stable</li>
 <li>Repo URL: <a href="https://jellyfin-repo.jesseward.com/manifest.json">https://jellyfin-repo.jesseward.com/manifest.json</a></li>
 </ul>
-<h2 id="build">Build</h2>
+<h2 id="build-">Build</h2>
 <p>.NET core 2.1 is required to build the LastFM plugin. To install the .NET SDK on Linux or macOS, see the download page at <a href="https://dotnet.microsoft.com/download">https://dotnet.microsoft.com/download</a> . Native package manager instructions can be found for Debian, RHEL, Ubuntu, Fedora, SLES, and CentOS.</p>
 <p>Once the SDK is installed, run the following.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/jesseward/jellyfin-plugin-lastfm.git
 cd jellyfin-plugin-lastfm
 dotnet build
-</code></pre></div><h2 id="install">INSTALL</h2>
+</code></pre></div><h2 id="install-">INSTALL</h2>
 <p>If the build is successful, the tool will report the path to your Plugin dll (<code>Jellyfin.Plugin.Lastfm/bin/Debug/netstandard2.1/Jellyfin.Plugin.Lastfm.dll</code>)</p>
 <p>The plugin should then be copied into your Jellyfin ${CONFIG_DIR}/plugins directory.</p>
-<h2 id="running-jellyfin-from-docker">Running Jellyfin from Docker</h2>
+<h2 id="running-jellyfin-from-docker-">Running Jellyfin from Docker</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">CACHE_DIR<span style="color:#f92672">=</span>/path/to/cache
 MEDIA_DIR<span style="color:#f92672">=</span>/path/to/media
 CONFIG_DIR<span style="color:#f92672">=</span>/path/to/config
@@ -194,7 +193,7 @@ docker run -d <span style="color:#ae81ff">\
                 <footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
-            <span>&copy; 2020</span>
+            <span>&copy; 2021</span>
             
             
             <span> <a href="https://www.jesseward.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
