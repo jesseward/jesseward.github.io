@@ -1,5 +1,5 @@
 baseURL = 'https://www.jesseward.com/'
-theme = "lynx"
+theme = "lynx-jw"
 title = "Home Of Jesse Ward"
 
 enableEmoji = true
