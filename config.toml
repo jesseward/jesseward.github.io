@@ -1,5 +1,5 @@
 baseURL = 'https://www.jesseward.com/'
-theme = "lynx-jw"
+theme = "lynx"
 title = "Home Of Jesse Ward"
 
 enableEmoji = true
@@ -10,13 +10,13 @@ disableKinds = ["taxonomy", "term"]
   headline = "Software Developer // Systems Guy // Music Nut"
   image = "portrait.jpg"
   links = [
-    { mixcloud = "https://www.mixcloud.com/jw76" },
+    { mixcloud = {href = "https://www.mixcloud.com/jw76" , text = "Mixcloud"}},
+    { lastfm = "https://www.last.fm/user/jw76"},
+    { spotify = { href = "https://open.spotify.com/user/jw-76", text = "Spotify"}},
+    { discogs = { href = "https://www.discogs.com/user/jward", text = "Discogs"}},
+    { soundcloud = "https://soundcloud.com/jesseward" },
     { github = "https://github.com/jesseward" },
     { linkedin = "https://linkedin.com/in/sjesseward" },
-    { lastfm = "https://www.last.fm/user/jw76"},
-    { spotify = "https://open.spotify.com/user/jw-76"},
-    { discogs = "https://www.discogs.com/user/jward"},
-    { soundcloud = "https://soundcloud.com/jesseward" },
     { instagram = "https://www.instagram.com/sjesseward"},
   ]
 
