@@ -1,0 +1,21 @@
+{
+  // Runs automatically after Prebuild Template environment is created.
+  "onCreateCommand": ".devcontainer/on-create-command.sh",
+  "postCreateCommand": "git submodule update --init",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "golang.Go",
+                "github.copilot",
+                "tamasfe.even-better-toml",
+                "github.vscode-github-actions"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+        }
+    },
+    "image": "mcr.microsoft.com/devcontainers/go"
+}
